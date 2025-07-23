@@ -9,7 +9,7 @@ export const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'sdmntprnorthcentralus.oaiusercontent.com',
+        hostname: 'sdmntprwestus2.oaiusercontent.com',
       },
       {
         protocol: 'https',
