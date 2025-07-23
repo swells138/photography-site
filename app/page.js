@@ -26,13 +26,17 @@ export default function Home() {
       <section id="portfolio" className="py-16 px-6 max-w-6xl mx-auto">
         <h3 className="text-3xl font-semibold mb-8">Featured Work</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {["https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-38b4-61f7-abb6-1ddc14bef79c/raw?se=2025-07-23T23%3A14%3A12Z&sp=r&sv=2024-08-04&sr=b&scid=4ad68d55-175e-551d-a8b7-26f6c0715201&skoid=c953efd6-2ae8-41b4-a6d6-34b1475ac07c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T22%3A13%3A50Z&ske=2025-07-24T22%3A13%3A50Z&sks=b&skv=2024-08-04&sig=mrurxtUC2Bd/9zyoORzWoGrA1cxj6ocKO2hF9AoFhns%3D", 
-          "https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-d114-61f7-97f5-20efaa88f04c/raw?se=2025-07-23T22%3A28%3A52Z&sp=r&sv=2024-08-04&sr=b&scid=93e34f05-a3c4-5548-9a09-fed305707854&skoid=c953efd6-2ae8-41b4-a6d6-34b1475ac07c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T19%3A52%3A03Z&ske=2025-07-24T19%3A52%3A03Z&sks=b&skv=2024-08-04&sig=WYih1uATnWqwftevXmx8uUXwVQfseMRv7YlrxjEej2U%3D", 
-          "https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-b8b0-622f-888a-3b6d4b3a4a70/raw?se=2025-07-23T22%3A25%3A42Z&sp=r&sv=2024-08-04&sr=b&scid=fd914222-bd7c-5457-81d4-a3758749d82d&skoid=c953efd6-2ae8-41b4-a6d6-34b1475ac07c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T19%3A50%3A45Z&ske=2025-07-24T19%3A50%3A45Z&sks=b&skv=2024-08-04&sig=%2BVboUOQFYZWrLRVrEywYcwrl0doYBXgZAtTL%2BVjKgDo%3D"].map((src, idx) => (
-            <div key={idx} className="relative aspect-square overflow-hidden rounded-lg shadow-md">
-              <Image src={src} alt={`Work ${idx + 1}`} fill className="object-cover" />
+       
+            <div key={'1'} className="relative aspect-square overflow-hidden rounded-lg shadow-md">
+              <Image src={'https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-38b4-61f7-abb6-1ddc14bef79c/raw?se=2025-07-23T23%3A14%3A12Z&sp=r&sv=2024-08-04&sr=b&scid=4ad68d55-175e-551d-a8b7-26f6c0715201&skoid=c953efd6-2ae8-41b4-a6d6-34b1475ac07c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T22%3A13%3A50Z&ske=2025-07-24T22%3A13%3A50Z&sks=b&skv=2024-08-04&sig=mrurxtUC2Bd/9zyoORzWoGrA1cxj6ocKO2hF9AoFhns%3D'} alt={`Work ${idx + 1}`} fill className="object-cover" />
             </div>
-          ))}
+            <div key={'2'} className="relative aspect-square overflow-hidden rounded-lg shadow-md">
+              <Image src={'https://sdmntprwestus2.oaiusercontent.com/files/00000000-f3f4-61f8-b475-c43981b62696/raw?se=2025-07-23T23%3A53%3A11Z&sp=r&sv=2024-08-04&sr=b&scid=959ef826-0965-576c-ba78-786ae65e31de&skoid=732f244e-db13-47c3-bcc7-7ee02a9397bc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T19%3A46%3A41Z&ske=2025-07-24T19%3A46%3A41Z&sks=b&skv=2024-08-04&sig=uBgegE7hV9o473VyWlEjHQ%2BjRM7pk2c4/76r%2BCWsn3g%3D'} alt={`Work ${idx + 1}`} fill className="object-cover" />
+            </div>
+            <div key={'3'} className="relative aspect-square overflow-hidden rounded-lg shadow-md">
+              <Image src={'https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-b8b0-622f-888a-3b6d4b3a4a70/raw?se=2025-07-23T22%3A25%3A42Z&sp=r&sv=2024-08-04&sr=b&scid=fd914222-bd7c-5457-81d4-a3758749d82d&skoid=c953efd6-2ae8-41b4-a6d6-34b1475ac07c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T19%3A50%3A45Z&ske=2025-07-24T19%3A50%3A45Z&sks=b&skv=2024-08-04&sig=%2BVboUOQFYZWrLRVrEywYcwrl0doYBXgZAtTL%2BVjKgDo%3D'} alt={`Work ${idx + 1}`} fill className="object-cover" />
+            </div>
+         
         </div>
       </section>
 
