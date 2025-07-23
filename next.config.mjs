@@ -11,11 +11,16 @@ export const nextConfig = {
         protocol: 'https',
         hostname: 'sdmntprnorthcentralus.oaiusercontent.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'sdmntpreastus2.oaiusercontent.com',
+      },
     ],
   },
 };
 
 export default nextConfig;
+
 
 
 
