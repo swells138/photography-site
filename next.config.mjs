@@ -1,14 +1,21 @@
 /** @type {import('next').NextConfig} */
+
 export const nextConfig = {
   images: {
-    domains: [
-      'sdmntprsouthcentralus.oaiusercontent.com',
-      'sdmntprnorthcentralus.oaiusercontent.com',
-      'sdmntprsouthcentralus.oaiusercontent.com'
-      // Add more if needed
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'sdmntprsouthcentralus.oaiusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'sdmntprnorthcentralus.oaiusercontent.com',
+      },
     ],
   },
 };
 
 export default nextConfig;
+
+
 
