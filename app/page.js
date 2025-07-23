@@ -34,7 +34,7 @@ export default function Home() {
               <Image src={'https://sdmntprwestus2.oaiusercontent.com/files/00000000-f3f4-61f8-b475-c43981b62696/raw?se=2025-07-23T23%3A53%3A11Z&sp=r&sv=2024-08-04&sr=b&scid=959ef826-0965-576c-ba78-786ae65e31de&skoid=732f244e-db13-47c3-bcc7-7ee02a9397bc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T19%3A46%3A41Z&ske=2025-07-24T19%3A46%3A41Z&sks=b&skv=2024-08-04&sig=uBgegE7hV9o473VyWlEjHQ%2BjRM7pk2c4/76r%2BCWsn3g%3D'} alt={`Work ${2 + 1}`} fill className="object-cover" />
             </div>
             <div key={'3'} className="relative aspect-square overflow-hidden rounded-lg shadow-md">
-              <Image src={'https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-b8b0-622f-888a-3b6d4b3a4a70/raw?se=2025-07-23T22%3A25%3A42Z&sp=r&sv=2024-08-04&sr=b&scid=fd914222-bd7c-5457-81d4-a3758749d82d&skoid=c953efd6-2ae8-41b4-a6d6-34b1475ac07c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T19%3A50%3A45Z&ske=2025-07-24T19%3A50%3A45Z&sks=b&skv=2024-08-04&sig=%2BVboUOQFYZWrLRVrEywYcwrl0doYBXgZAtTL%2BVjKgDo%3D'} alt={`Work ${3 + 1}`} fill className="object-cover" />
+              <Image src={'https://sdmntprwestus2.oaiusercontent.com/files/00000000-d820-61f8-a55b-a179457da056/raw?se=2025-07-23T23%3A56%3A20Z&sp=r&sv=2024-08-04&sr=b&scid=eeb581b5-aea3-5c9e-aae5-6e00324dc231&skoid=732f244e-db13-47c3-bcc7-7ee02a9397bc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T19%3A46%3A50Z&ske=2025-07-24T19%3A46%3A50Z&sks=b&skv=2024-08-04&sig=iMraqSLPnles7%2Bgt393Br9%2Bmiu2yO8iguAikBf4JVLE%3D'} alt={`Work ${3 + 1}`} fill className="object-cover" />
             </div>
          
         </div>

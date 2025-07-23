@@ -7,6 +7,7 @@ export default {
       'images.unsplash.com',
       'sdmntprwestus2.oaiusercontent.com',
       'sdmntprnorthcentralus.oaiusercontent.com',
+      'https://sdmntprwestus2.oaiusercontent.com'
     ],
   },
 };
