@@ -1,25 +1,16 @@
 /** @type {import('next').NextConfig} */
 
-export const nextConfig = {
+export default {
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'sdmntprsouthcentralus.oaiusercontent.com',
-      },
-      {
-        protocol: 'https',
-        hostname: 'sdmntprwestus2.oaiusercontent.com',
-      },
-      {
-        protocol: 'https',
-        hostname: 'sdmntpreastus2.oaiusercontent.com',
-      },
+    domains: [
+      'ssdmntprsouthcentralus.oaiusercontent.com',
+      'images.unsplash.com',
+      'sdmntprwestus2.oaiusercontent.com',
+      'sdmntprnorthcentralus.oaiusercontent.com',
     ],
   },
 };
 
-export default nextConfig;
 
 
 
