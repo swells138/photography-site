@@ -12,6 +12,8 @@ export default function Home() {
           <Link href="#portfolio" className="hover:underline">Portfolio</Link>
           <Link href="#services" className="hover:underline">Services</Link>
           <Link href="#about" className="hover:underline">About</Link>
+          <Link href="#reviews" className="hover:underline">Reviews</Link>
+          <Link href="#availability" className="hover:underline">Availability</Link>
           <Link href="#contact" className="hover:underline">Contact</Link>
         </nav>
       </header>
@@ -36,8 +38,40 @@ export default function Home() {
             <div key={'3'} className="relative aspect-square overflow-hidden rounded-lg shadow-md">
               <Image src={'https://sdmntprwestus2.oaiusercontent.com/files/00000000-d820-61f8-a55b-a179457da056/raw?se=2025-07-23T23%3A56%3A20Z&sp=r&sv=2024-08-04&sr=b&scid=eeb581b5-aea3-5c9e-aae5-6e00324dc231&skoid=732f244e-db13-47c3-bcc7-7ee02a9397bc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-23T19%3A46%3A50Z&ske=2025-07-24T19%3A46%3A50Z&sks=b&skv=2024-08-04&sig=iMraqSLPnles7%2Bgt393Br9%2Bmiu2yO8iguAikBf4JVLE%3D'} alt={`Work ${3 + 1}`} fill className="object-cover" />
             </div>
+
+            {/* Additional sample photos */}
+            <div key={'4'} className="relative aspect-square overflow-hidden rounded-lg shadow-md">
+              <Image src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=60" alt="Work 4" fill className="object-cover" />
+            </div>
+            <div key={'5'} className="relative aspect-square overflow-hidden rounded-lg shadow-md">
+              <Image src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=600&q=60" alt="Work 5" fill className="object-cover" />
+            </div>
+            <div key={'6'} className="relative aspect-square overflow-hidden rounded-lg shadow-md">
+              <Image src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=60" alt="Work 6" fill className="object-cover" />
+            </div>
          
         </div>
+      </section>
+
+      {/* Reviews */}
+      <section id="reviews" className="py-16 px-6 bg-gray-900 max-w-4xl mx-auto">
+        <h3 className="text-3xl font-semibold mb-8 text-center">Reviews</h3>
+        <div className="space-y-8">
+          <div className="bg-gray-800 p-6 rounded shadow">
+            <p className="mb-2">"Sydney did an amazing job capturing our wedding day. The photos were stunning!"</p>
+            <p className="text-right text-gray-400">- Alex &amp; Jordan</p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded shadow">
+            <p className="mb-2">"Professional and creative. Highly recommend for any design work."</p>
+            <p className="text-right text-gray-400">- Casey R.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Availability */}
+      <section id="availability" className="py-16 px-6 text-center bg-gray-800">
+        <h3 className="text-3xl font-semibold mb-4">Availability</h3>
+        <p className="text-gray-300">Now booking sessions for Fall 2025. Limited weekend spots remain.</p>
       </section>
 
       {/* Contact */}

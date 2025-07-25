@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+The demo site showcases a small photography portfolio. It now includes several sample photos, a reviews section, and a note about current availability for booking.
+
 ## Getting Started
 
 First, run the development server:
