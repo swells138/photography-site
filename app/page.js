@@ -1,6 +1,7 @@
 // src/app/page.js
 import Image from "next/image";
 import Link from "next/link";
+import ReviewSection from "./components/ReviewSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <h1 className="text-2xl font-bold">PixelCraft Studio</h1>
         <nav className="space-x-4">
           <Link href="#portfolio" className="hover:underline">Portfolio</Link>
+          <Link href="#reviews" className="hover:underline">Reviews</Link>
           <Link href="#services" className="hover:underline">Services</Link>
           <Link href="#about" className="hover:underline">About</Link>
           <Link href="#contact" className="hover:underline">Contact</Link>
@@ -39,6 +41,9 @@ export default function Home() {
          
         </div>
       </section>
+
+      {/* Reviews */}
+      <ReviewSection />
 
       {/* Contact */}
       <section id="contact" className="py-16 px-6 bg-gray-800 text-center">
