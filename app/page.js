@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ReviewSection from "./components/ReviewSection";
+import ServicesSection from "./components/ServicesSection";
 
 export default function Home() {
   return (
@@ -44,6 +45,9 @@ export default function Home() {
 
       {/* Reviews */}
       <ReviewSection />
+
+      {/* Services */}
+      <ServicesSection />
 
       {/* Contact */}
       <section id="contact" className="py-16 px-6 bg-gray-800 text-center">
