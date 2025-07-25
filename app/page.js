@@ -49,6 +49,21 @@ export default function Home() {
       {/* Services */}
       <ServicesSection />
 
+      {/* About */}
+      <section id="about" className="py-16 px-6 bg-gray-800 text-center">
+        <h3 className="text-3xl font-semibold mb-4">About Me</h3>
+        <p className="text-gray-300 mb-4">
+          I&apos;m Sydney, a photographer and graphic designer with a passion for capturing
+          life&apos;s most meaningful moments. Over the past few years I&apos;ve worked on
+          everything from weddings to pet portraits, building a portfolio that
+          reflects both technical skill and creativity.
+        </p>
+        <p className="text-gray-300">
+          Friends describe me as upbeat and detail oriented&mdash;qualities that help me
+          connect with clients and deliver photos that feel authentic and fun.
+        </p>
+      </section>
+
       {/* Contact */}
       <section id="contact" className="py-16 px-6 bg-gray-800 text-center">
         <h3 className="text-3xl font-semibold mb-4">Let’s Work Together</h3>
